@@ -1,7 +1,9 @@
-import "dotenv/config";
+import dotenv from 'dotenv';
 import express from "express";
 import config from "./config";
 import expressConfig from "./config/express";
+
+dotenv.config();
 
 // Instantiates the express package
 const app = express();
