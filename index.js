@@ -1,7 +1,7 @@
-import dotenv from 'dotenv';
 import express from "express";
 import config from "./config";
 import expressConfig from "./config/express";
+import dotenv from "dotenv";
 
 dotenv.config();
 
